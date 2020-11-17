@@ -1,0 +1,71 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Importing all components file */
+@import url("components/button.css");
+@import url("components/cards.css");
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(../images/livro-amor.jpg);
+  background-size: cover;
+  color: rgb(240,240,240);
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+  padding: 120px 0;
+  height: 350px;
+}
+
+.container {
+  width: 900px;
+  margin: 0px auto;
+}
+
+.footer {
+  margin: 5px;
+  padding: 0px 10px 5px 5px;
+  background-color: #DCDDDB;
+  font-size: 12px;
+  color: black;
+}
+
+.list-inline {
+  list-style: none;
+  margin: 0px;
+  padding-left: 0px;
+  display: flex;
+  justify-content: center;
+  padding-inline-start: 0px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.fab {
+  color: rgb(224, 184, 8);
+  font-size: 24px;
+  margin: 5px;
+}
+
+.fab:hover{
+  opacity: .7;
+}
